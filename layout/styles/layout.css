@@ -48,8 +48,8 @@ File: Layout CSS
 --------------------------------------------------------------------------------------------------------------- */
 #header{}
 
-#header #logo{margin:30px 0 0 0;}
-#header #logo h1{margin:0; padding:0; font-size:40px; text-transform:uppercase;}
+#header #logo{margin:0 0 0 0;}
+#header #logo h1{margin:0; padding:0; font-size:40px; text-transform:uppercase}
 
 
 /* Page Intro
@@ -209,7 +209,7 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 #mainav li{display:block; position:relative; float:left; margin:0; padding:0;}
 #mainav li:last-child{margin-right:0;}
 #mainav li li{width:100%; margin:0;}
-#mainav li a{display:block; padding:40px 25px;}
+#mainav li a{display:block; padding:60px 100px;}
 #mainav li li a{border:solid; border-width:0 0 1px 0;}
 #mainav .drop{padding-left:30px;}
 #mainav li li a, #mainav li li .drop{display:block; margin:0; padding:10px 15px;}
@@ -323,7 +323,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#FF3F4A !important;}
 
 /* Rows */
 .row0{color:#474747; background-color:#F4F4F4;}
-.row1{color:#FFFFFF; background-color:#FF3F4A;}
+.row1{color:#FFFFFF; background-color:#B30006;}
 .row2{color:#474747; background-color:#F4F4F4;}
 .row3{color:#474747; background-color:#FFFFFF;}
 .row4{color:#A5A6AA; background-color:#27282E;}
