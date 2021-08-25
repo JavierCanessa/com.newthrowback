@@ -45,9 +45,20 @@ File: Layout CSS
 	color: white;
 }
 #contenedorline hr{
-	background-color: white;
-	width: 1440px;
-	height: 2px;
+	background-color: white !important;
+	width: 1440px !important;
+	height: 6px !important;
+}
+.parrafoservices{
+	color: white;
+	padding-left: 20%;
+	padding-right: 5%;
+	font-size: 27px;
+	list-style: none;
+	/* list-style-image: url('Modelado/New_Tr/tilde_png.png'); */
+}
+.tilde{
+	list-style-image: url('Modelado/New_Tr/tilde_png.png') !important;
 }
 
 
