@@ -60,6 +60,10 @@ File: Layout CSS
 .tilde{
 	list-style-image: url('Modelado/New_Tr/tilde_png.png') !important;
 }
+.imagencontacto{
+	position: absolute;
+	left: 0;
+}
 
 
 
