@@ -43,6 +43,24 @@ File: Layout CSS
 #topbar #searchform ::placeholder{text-transform:capitalize;}
 #topbar #searchform button{display:block; position:absolute; top:3px; right:2px; height:30px; font-size:16px; line-height:1;}
 
+/*carouselImages
+--------------------------------------------------------------------------------------------------------------- */
+.carouselImages{
+	width: 1024px;
+	height:700px;
+	opacity: 0.6;
+}
+/*carouselImagesParrafo
+--------------------------------------------------------------------------------------------------------------- */
+.pcarousel{
+	font-size: 20px;
+}
+/*carouselLogo
+--------------------------------------------------------------------------------------------------------------- */
+#carouselOpacidad{
+	color: black;
+}
+
 
 /* Header
 --------------------------------------------------------------------------------------------------------------- */
@@ -54,7 +72,7 @@ File: Layout CSS
 
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
-#pageintro{padding:200px 0 300px;}/* 300px => 100px for #introblocks negative margin */
+#pageintro{padding:100px 0 100px;}/* 300px => 100px for #introblocks negative margin */
 
 #pageintro article, #pageintro article p{display:block; max-width:75%; margin:0 auto; text-align:center;}
 #pageintro article p{max-width:65%; line-height:2rem;}
@@ -209,7 +227,7 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 #mainav li{display:block; position:relative; float:left; margin:0; padding:0;}
 #mainav li:last-child{margin-right:0;}
 #mainav li li{width:100%; margin:0;}
-#mainav li a{display:block; padding:60px 100px;}
+#mainav li a{display:block; padding:60px 100px; padding-left: 20px; text-decoration: none; }
 #mainav li li a{border:solid; border-width:0 0 1px 0;}
 #mainav .drop{padding-left:30px;}
 #mainav li li a, #mainav li li .drop{display:block; margin:0; padding:10px 15px;}
