@@ -31,11 +31,23 @@ File: Layout CSS
 }
 /*beforeafterimages
 --------------------------------------------------------------------------------------------------------------- */
-.beforeaferimages{
-	margin: 15%;
-	width: 405px;
+.beforeafterimages{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	width: 605px;
 	height: 480px;
-
+}
+.titulobai{
+	color: white;
+	text-align: center;
+}
+.parrafobai{
+	color: white;
+}
+#contenedorline hr{
+	background-color: white;
+	width: 1440px;
+	height: 2px;
 }
 
 
